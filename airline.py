@@ -13,8 +13,6 @@ image = Image.open('254381.jpg')
 st.image(image,use_column_width=True)
 
 
-
-st.markdown(page_bg_img, unsafe_allow_html=True)
 #markdown
 st.markdown('This application is all about tweet sentiment analysis of airlines. We can analyse reviews of the passengers using this streamlit app.')
 #sidebar
