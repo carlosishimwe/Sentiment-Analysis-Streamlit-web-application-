@@ -12,14 +12,7 @@ st.title('Tweet Sentiment Analysis')
 image = Image.open('254381.jpg')
 st.image(image,use_column_width=True)
 
-page_bg_img = '''
-<style>
-body {
-background-image: url("https://images.unsplash.com/photo-1542281286-9e0a16bb7366");
-background-size: cover;
-}
-</style>
-'''
+
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
 #markdown
