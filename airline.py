@@ -14,7 +14,7 @@ st.image(image,use_column_width=True)
 
 
 #markdown
-st.markdown('Jalis khelid pour Epsilon.')
+st.markdown('Jalis khelid pour Epsilon a encore frappé ! Guette lappli en gros ça te permet davoir le sentiment général des différentes compagnies aériennes  US apres  ça va améliorer ça tkt igo')
 #sidebar
 st.sidebar.title('Sentiment analysis of airlines')
 # sidebar markdown 
