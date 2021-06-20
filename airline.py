@@ -14,7 +14,7 @@ st.image(image,use_column_width=True)
 
 
 #markdown
-st.markdown('This application is all about tweet sentiment analysis of airlines. We can analyse reviews of the passengers using this streamlit app.')
+st.markdown('Jalis khelid pour Epsilon.')
 #sidebar
 st.sidebar.title('Sentiment analysis of airlines')
 # sidebar markdown 
