@@ -86,4 +86,4 @@ plt.imshow(wordcloud)
 plt.xticks([])
 plt.yticks([])
 st.pyplot()
-st.set_option('deprecation.showPyplotGlobalUse', True)
+
