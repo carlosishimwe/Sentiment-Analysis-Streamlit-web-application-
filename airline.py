@@ -11,6 +11,16 @@ import base64
 st.title('Tweet Sentiment Analysis')
 image = Image.open('254381.jpg')
 st.image(image,use_column_width=True)
+page_bg_img = '''
+<style>
+body {
+background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F670051250805859166%2F&psig=AOvVaw2ogjbckYTgONGDCNo-Zxi3&ust=1624536481128000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCJiL4ZDcrfECFQAAAAAdAAAAABAQ");
+background-size: cover;
+}
+</style>
+'''
+
+st.markdown(page_bg_img, unsafe_allow_html=True)
 
 
 #markdown
