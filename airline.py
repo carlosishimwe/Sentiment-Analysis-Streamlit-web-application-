@@ -7,6 +7,19 @@ from PIL import Image
 import numpy as np
 import base64
 
+darkmode = """
+<style>
+body {
+  background-color: black;
+  color: white;
+}
+</style>
+"""
+buffer = st.sidebar.checkbox('click here to Toggle')
+if buffer:
+    st.markdown(darkmode,unsafe_allow_html=True)
+st.header("Theme will change")
+
 page_bg_img = '''
 <style>
 body {
