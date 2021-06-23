@@ -10,7 +10,7 @@ import base64
 page_bg_img = '''
 <style>
 body {
-background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F670051250805859166%2F&psig=AOvVaw2ogjbckYTgONGDCNo-Zxi3&ust=1624536481128000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCJiL4ZDcrfECFQAAAAAdAAAAABAQ");
+background-image: url("https://images.unsplash.com/photo-1542281286-9e0a16bb7366");
 background-size: cover;
 }
 </style>
