@@ -7,20 +7,22 @@ from PIL import Image
 import numpy as np
 import base64
 
-#title
-st.title('Tweet Sentiment Analysis')
-image = Image.open('254381.jpg')
-st.image(image,use_column_width=True)
 page_bg_img = '''
 <style>
 body {
-background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F670051250805859166%2F&psig=AOvVaw2ogjbckYTgONGDCNo-Zxi3&ust=1624536481128000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCJiL4ZDcrfECFQAAAAAdAAAAABAQ");
+background-image: url("https://images.unsplash.com/photo-1542281286-9e0a16bb7366");
 background-size: cover;
 }
 </style>
 '''
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
+
+#title
+st.title('Tweet Sentiment Analysis')
+image = Image.open('254381.jpg')
+st.image(image,use_column_width=True)
+
 
 
 #markdown
